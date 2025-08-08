@@ -10,34 +10,29 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200
-     via-pink-300 to-pink-400 relative overflow-hidden sm:w-full">
+     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 relative overflow-hidden sm:w-full px-4">
 
-        {/* Floating Hearts & Flowers */}
-        <div className="absolute top-10 left-10 text-pink-500 text-3xl animate-bounce">❤️</div>
-        <div className="absolute top-48 left-40 text-pink-500 text-3xl animate-bounce">❤️</div>
-        <div className="absolute top-20 right-20 text-red-400 text-2xl animate-pulse">💖</div>
-        <div className="absolute top-40 right-40 text-red-400 text-2xl animate-pulse">💖</div>
-        <div className="absolute bottom-20 left-1/4 text-pink-500 text-2xl animate-ping">💝</div>
-        <div className="absolute bottom-40 left-1/3 text-pink-500 text-2xl animate-ping">💝</div>
-        <div className="absolute bottom-16 right-1/3 text-pink-600 text-3xl animate-pulse">🌸</div>
-        <div className="absolute bottom-24 right-1/4 text-pink-600 text-3xl animate-pulse">🌸</div>
+  {/* Floating Hearts & Flowers */}
+  <div className="absolute top-10 left-4 sm:left-10 text-pink-500 text-2xl sm:text-3xl animate-bounce">❤️</div>
+  <div className="absolute top-48 left-20 sm:left-40 text-pink-500 text-2xl sm:text-3xl animate-bounce">❤️</div>
+  <div className="absolute top-20 right-10 sm:right-20 text-red-400 text-xl sm:text-2xl animate-pulse">💖</div>
+  <div className="absolute top-40 right-20 sm:right-40 text-red-400 text-xl sm:text-2xl animate-pulse">💖</div>
+  <div className="absolute bottom-20 left-1/4 text-pink-500 text-xl sm:text-2xl animate-ping">💝</div>
+  <div className="absolute bottom-40 left-1/3 text-pink-500 text-xl sm:text-2xl animate-ping">💝</div>
+  <div className="absolute bottom-16 right-1/3 text-pink-600 text-2xl sm:text-3xl animate-pulse">🌸</div>
+  <div className="absolute bottom-24 right-1/4 text-pink-600 text-2xl sm:text-3xl animate-pulse">🌸</div>
 
-        {/* Birthday Message */}
-        <div className="text-center bg-white/40 backdrop-blur-md rounded-2xl 
-       shadow-2xl px-10 py-12 max-w-lg">
+  {/* Birthday Message */}
+  <div className="text-center bg-white/40 backdrop-blur-md rounded-2xl shadow-2xl px-6 sm:px-10 py-10 sm:py-12 w-full max-w-md sm:max-w-lg">
+    <h1 className="text-2xl sm:text-4xl font-bold text-rose-600 typewriter-loop">
+      Happy Birthday, Beautiful ❤️
+    </h1>
+    <p className="text-base sm:text-lg text-gray-700 mt-4">
+      Today is all about celebrating you and the joy you bring to my life
+    </p>
+  </div>
 
-          <h1 className="text-4xl font-bold text-rose-600 typewriter-loop">
-            Happy Birthday,Beautiful❤️
-          </h1>
-
-          <p className="text-lg text-gray-700 mt-4">
-            Today is all about celebrating you and the joy you bring to my life
-          </p>
-
-        </div>
-
-      </div>
+</div>
       {/* image boxes */}
       <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="w-full max-w-sm h-auto mx-auto overflow-hidden">
